@@ -52,14 +52,14 @@ end
 
 def winner(board)
   binding.pry
-  if won?(board) == false
-    return nil
-  elsif won?(board).each do |index|
-   board[index]== "X"
-    end
-    return "X"
+  if won?(board) 
+    
+  #elsif won?(board).each do |index|
+   #board[index]== "X"
+    #end
+    #return "X"
 
-  else
-    return "O"
+  #else
+    #return "O"
   end
 end
