@@ -51,6 +51,7 @@ def over?(board)
 end
 
 def winner(board)
+  binding.pry
   if won?(board) == false
     return nil
   elsif won?(board).each do |index|
