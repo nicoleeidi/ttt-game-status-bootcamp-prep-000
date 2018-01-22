@@ -53,8 +53,8 @@ end
 def winner(board)
   if won?board == false
     return nil
-  elsif won?(board).each do |index|
-    board[index]== "X"
+   won?(board).each do |index|
+  elsif board[index]== "X"
     return "X"
     end
   else
