@@ -51,7 +51,7 @@ def over?(board)
 end
 
 def winner(board)
-  if won?board == false
+  if won?(board) == false
     return nil
   elsif won?(board).each do |index|
    board[index]== "X"
